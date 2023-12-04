@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>MathML and SVG</title>
+  <link rel="stylesheet" href="stylesnum.css">
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+<body>
+  <math>
+    <msup>
+      <mi>a</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>=</mo>
+    <msup>
+      <mi>b</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>+</mo>
+    <msup>
+      <mi>c</mi>
+      <mn>2</mn>
+    </msup>
+  </math>
+<br>
+
+<math>
+<msup>
+   <mi>f(x)</mi> 
+</msup>
+<msup>
+<mo>=</mo>
+</msup>
+<msub>
+    <mi>a</mi>
+    <mn>0</mn>
+  </msub>
+
+    <msup>
+        <mo>+</mo>
+        </msup>
+        <munderover>
+            <mo>&#x2211;</mo>
+            <mrow>
+              <mi>n</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mo>&#x221e;</mo>
+          </munderover>
+          <mo>(</mo>
+          <msub>
+            
+            <mi>a</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>cos</mo>
+          <mo>(</mo>
+          <mrow>
+            <mfrac>
+                <mi>n π x</mi>
+                <mi>L</mi>
+              </mfrac>
+          </mrow>
+          <mo>)</mo>
+          <mo>+</mo>
+          <msub>
+            <mi>b</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>sin</mo>
+          <mo>(</mo>
+          <mrow>
+            <mfrac>
+              <mi>n π x</mi>
+              <mi>L</mi>
+            </mfrac>
+            
+          </mrow>
+          <mo>)</mo>
+          <mo>)</mo>
+</math>
+<br>
+
+<svg> 
+
+  
+  
+  <path d="M 65 20 A 9 12, 0, 0, 0, 94 20" stroke="gray" stroke-width="4" fill="none" />
+  <line x1="80" y1="20" x2="80" y2="80" stroke="gray" stroke-width="4" stroke-linecap="round" />
+
+  <circle cx="150" cy="50" r="40" stroke="gray" stroke-width="4" fill="none"/>
+  <circle cx="150" cy="50" r="25" stroke="gray" stroke-width="4" fill="none"/>
+
+  <path d="M 230 45 A 10 10, 0, 0, 0, 242 24" stroke="gray" stroke-width="4" fill="none" transform="rotate(325 225 60)" />
+  <line x1="220" y1="20" x2="220" y2="80" stroke="gray" stroke-width="4" stroke-linecap="round" />
+</svg>
+</body>
+</html>
